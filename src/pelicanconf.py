@@ -1,6 +1,6 @@
 AUTHOR = 'XYZ Contractor'
 SITENAME = 'Northshore Digital Consulting'
-SITEURL = ""
+SITEURL = "http://localhost:8080"
 
 PATH = "content"
 
@@ -33,3 +33,5 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
+
+GOOGLE_FONTS = True
