@@ -4,19 +4,19 @@ This project is an exploration for myself into using Pelican for static site gen
 
 Things I wish to accomplish with this:
 
-- [ ] Create simple Pelican site 
-- [ ] Generate and publish site
-- [ ] Explore the possibility of using HTMX 
-- [ ] Test Vercel CI/CD Pipeline
-- [ ] Test Dependabot
+- Create simple Pelican site 
+- Generate and publish site
+- Explore the possibility of using HTMX 
+- Test Vercel CI/CD Pipeline
+- Test Dependabot
 
 
 # TODO 
 
-- [ ] Create contraints 
+- [x] Create contraints 
 - [ ] Create site 
     - [ ] Create articles 
-    - [ ] Create home, contact, and about pages 
+    - [ ] Create home, services, contact, and about pages 
     - [ ] Generate site 
 - [ ] Make theme 
 - [ ] Integrate HTMX into theme
