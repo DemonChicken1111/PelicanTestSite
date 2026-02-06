@@ -1,0 +1,13 @@
+<footer>
+    <address>
+        Contact us at: <a href="mailto:sales@example.com">sales@example.com</a>
+    </address>
+    <p>&copy; {{COPYRIGHT_YEAR }} {{COPYRIGHT_NAME }}</p>
+    <p>
+        {{
+            _('Built with %(pelican_url)s using %(corp_flex_url)s theme',
+            pelican_url='<a href="http://getpelican.com" target="_blank">Pelican</a>',
+            corp_flex_url='<a href="http://localhost:8080" target="_blank">Flex</a>'|safe)
+        }}
+    </p>
+</footer>

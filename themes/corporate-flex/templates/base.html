@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock %}">
+
+        <head>
+            {% block head %}
+                <meta charset="utf-8" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                
+                <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/stylesheet/corp_flex.css">
+                
+                {% if FEED_ALL_ATOM %}
+                    <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom">
+                {% endif %}
+
+                {% if FEED_ALL_RSS %}
+                    <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS">
+                {% endif %}
+
+                {% if GOOGLE_FONTS == True %}
+                    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+                {% endif %}
+
+            {% endblock %}
+        </head>
+
+        <body>
+
+            <main>
+
+                {# INCLUDE NAV #}
+                {% include "partial/nav.html" %}
+
+                {# ASIDE BLOCK #}
+                {% block aside %}
+                {% endblock %}
+
+                {# CONTENT BLOCK #}
+                {% block content %}
+                {% endblock %}
+
+                {# INCLUDE FOOTER #}
+                {% include "partial/footer.html" %}
+            </main>
+
+            {# INCLUDE JS FOR ALL #}
+
+            {%block additional_js %}{% endblock %}
+
+        </body>
+</html>
