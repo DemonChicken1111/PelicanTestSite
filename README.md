@@ -14,9 +14,9 @@ Things I wish to accomplish with this:
 # TODO 
 
 - [x] Create contraints 
-- [x] Create site 
-    - [x] Create articles 
-    - [x] Create home, services, contact, and about pages 
+- [ ] Create site 
+    - [x] Create placeholder articles 
+    - [ ] Create home, services, contact, and about pages 
     - [x] Generate site 
 - [ ] Make theme
     - [x] Base template
