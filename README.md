@@ -14,12 +14,16 @@ Things I wish to accomplish with this:
 # TODO 
 
 - [x] Create contraints 
-- [ ] Create site 
-    - [ ] Create articles 
-    - [ ] Create home, services, contact, and about pages 
-    - [ ] Generate site 
-- [ ] Make theme 
-- [ ] Integrate HTMX into theme
+- [x] Create site 
+    - [x] Create articles 
+    - [x] Create home, services, contact, and about pages 
+    - [x] Generate site 
+- [ ] Make theme
+    - [x] Base template
+    - [ ] Other templates
+    - [ ] CSS
+    - [ ] Tests
+- [ ] Integrate HTMX into theme (Optional)
 - [ ] Create CI/CD pipeline 
     - [ ] Create Vercel integrations 
     - [ ] Test Vercel integrations + deployments 
